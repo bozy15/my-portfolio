@@ -43,9 +43,15 @@ View the live portfolio [**here**]()
 
 #### Design
 
+Fonts - Exo 2 and Poppins taken from [Google Fonts](https://fonts.google.com/specimen/Exo+2?query=ex) are the two main fonts used throughout this project. Sans-serif was used as the fail-safe font.
+
 #### Wireframes
 
 ## Technologies Used
+
+- This project uses HTML5, CSS3 and JavaScript.
+- [Icon Scout](https://iconscout.com/unicons/getting-started/thinline)
+  - Used to supply icons featured on this site.
 
 ## Features
 
