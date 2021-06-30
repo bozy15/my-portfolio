@@ -1,0 +1,22 @@
+/* Google Fonts: https://fonts.google.com/specimen/Exo+2?query=ex*/
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&family=Poppins&display=swap");
+
+:root {
+    --header-height: 3rem;
+
+    /* ----- colors ----- */
+    --hue-color: ;
+    --first-color: ;
+    --first-color-second: ;
+    --first-color-alt: ;
+    --first-color-lighter: ;
+    --first-color: ;
+    --title-color: ;
+    --text-color: ;
+    --text-color-light: ;
+    --input-color: ;
+    --body-color: ;
+    --container-color: ;
+
+    /* ----- Fonts ----- */
+}
