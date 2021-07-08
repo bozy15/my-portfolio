@@ -147,6 +147,23 @@ img {
 }
 
 /* ----- Nav CSS -----*/
+
+/* ----- Nav CSS for small-medium devices-----*/
+@media screen and (max-width: 768px) {
+    .nav-menu {
+      position: fixed;
+      bottom: -100%; /* Hides the navbar */
+      left: 0;
+      width: 100%;
+      background-color: var(--body-color);
+      padding: 2rem 1.5rem 4rem;
+      box-shadow: 0 -1px 4px rgba(0, 0, 0.15);
+      border-radius: 1.5rem 1.5rem 0 0;
+      transition: 0.3s;
+    }
+  }
+/* ----- END of Nav CSS for small-medium devices-----*/
+
 .nav {
   max-width: 48rem;
   height: var(--header-height);
@@ -168,17 +185,40 @@ img {
   color: var(--first-color);
 }
 
-/* ----- Nav CSS for small-medium devices-----*/
-@media screen and (max-width: 768px) {
-  .nav-menu {
-    position: fixed;
+.nav-list {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+}
+
+.nav-link:hover {
+    color: var(--first-color);
+}
+
+.nav-icon {
+    font-size: 1.3rem;
+}
+
+.nav-close {
+    position: absolute;
+    right: 1.3rem;
+    bottom: 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--first-color);
+}
+
+.nav-close:hover {
+    color: var(--first-color-alt);
+}
+
+.show-nav-menu {
     bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: var(--body-color);
-    padding: 2rem 1.5rem 4rem;
-    box-shadow: 0 -1px 4px rgba(0, 0, 0.15);
-    border-radius: 1.5rem 1.5rem 0 0;
-    transition: 0.3s;
-  }
 }
