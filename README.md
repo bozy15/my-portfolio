@@ -52,6 +52,8 @@ Fonts - Exo 2 and Poppins taken from [Google Fonts](https://fonts.google.com/spe
 - This project uses HTML5, CSS3 and JavaScript.
 - [Icon Scout](https://iconscout.com/unicons/getting-started/thinline)
   - Used to supply icons featured on this site.
+- [jQuery](https://code.jquery.com/)
+  - Used to manipulate the DOM
 
 ## Features
 
